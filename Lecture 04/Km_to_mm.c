@@ -8,7 +8,7 @@ void main()
     scanf("%f", &km);
     
     // 1 km = 1,000,000 mm
-    mm = km * 1000000.0;
+    mm = km * 1000000;
     
-    printf("Distance in millimeters = %.2f\n", mm);
+    printf("Distance in millimeters = %2f\n", mm);
 }
